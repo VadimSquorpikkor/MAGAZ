@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21" />
+
+            <TextView
+                style="@style/TextView"
+                android:text="Корелин"
+                android:id="@+id/textView"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp" />
+
+            <TextView
+                style="@style/TextView"
+                android:text="Крот"
+                android:id="@+id/textView2"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp" />
+
+            <TextView
+                style="@style/TextView"
+                android:text="Сборка"
+                android:id="@+id/textView3"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp" />
+
+            <TextView
+                style="@style/TextView"
+                android:text="Монтаж"
+                android:id="@+id/textView4"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp" />
+
+            <TextView
+                style="@style/TextView"
+                android:text="Праневич"
+                android:id="@+id/textView5"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Соков"
+                android:id="@+id/textView22" />
+
+            <EditText
+                style="@style/EditText"
+                android:ems="10"
+                android:id="@+id/editText1"
+                android:layout_column="1"
+                android:text="37" />
+
+            <EditText
+                style="@style/EditText"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_column="1"
+                android:text="6" />
+
+            <EditText
+                style="@style/EditText"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:layout_column="1"
+                android:text="0" />
+
+            <EditText
+                style="@style/EditText"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:layout_column="1"
+                android:text="15" />
+
+            <EditText
+                style="@style/EditText"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_column="1"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23" />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сок"
+                android:id="@+id/textView11"
+                android:layout_column="4" />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Кефир"
+                android:id="@+id/textView12"
+                android:layout_column="4" />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сок +"
+                android:id="@+id/textView13"
+                android:layout_column="4" />
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Кеф +"
+                android:id="@+id/textView14"
+                android:layout_column="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Цена"
+                android:id="@+id/textView10"
+                android:layout_column="5" />
+
+            <EditText
+                style="@style/EditText70"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_column="5"
+                android:text="20700"
+                 />
+
+            <EditText
+                style="@style/EditText70"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:layout_column="5"
+                android:text="8000"
+                 />
+
+            <EditText
+                style="@style/EditText70"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:layout_column="5"
+                android:text="5900"
+                 />
+
+            <EditText
+                style="@style/EditText70"
+                android:ems="10"
+                android:id="@+id/editText8"
+                android:layout_column="5"
+                android:text="4100"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_column="6" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    style="@style/EditText"
+                    android:ems="10"
+                    android:id="@+id/editText9"
+                    android:layout_column="6"
+                    android:text="40" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=","
+                    android:id="@+id/textView9" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:ems="10"
+                    android:id="@+id/editText11"
+                    android:layout_column="6"
+                    android:text="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    style="@style/EditText"
+                    android:ems="10"
+                    android:id="@+id/editText10"
+                    android:layout_column="6"
+                    android:text="80" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=","
+                    android:id="@+id/textView15" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:ems="10"
+                    android:id="@+id/editText12"
+                    android:layout_column="6"
+                    android:text="0" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Посчитать"
+            android:id="@+id/button"
+            android:layout_column="0"
+            android:onClick="summa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/TextView"
+                    android:text="Cоков :"
+                    android:id="@+id/textView6"
+                    android:layout_column="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/textView7"
+                    android:layout_column="1" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="В накладной: "
+                    android:id="@+id/textView20"
+                    android:layout_column="4"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/textView19"
+                    android:layout_column="5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Остаток :"
+                    android:id="@+id/textView24" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/textView25" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Каждому : "
+                    android:id="@+id/textView16"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17"
+                    android:text="0" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextView"
+                android:text="Только соки"
+                android:id="@+id/textView18"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextView"
+                android:text="Все остальное"
+                android:id="@+id/textView26"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText13" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText14" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText15" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText16" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText17" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText18" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText19" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText20" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText21" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText22" />
+
+            <EditText
+                android:id="@+id/editText33"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText34"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText35"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText36"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText37"
+                style="@style/EditText70" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editText23"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText24"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText25"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText26"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText27"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText28"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText29"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText30"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText31"
+                style="@style/EditText" />
+
+            <EditText
+                android:id="@+id/editText32"
+                style="@style/EditText" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText53" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText54" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText55" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText56" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText57" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <EditText
+                android:id="@+id/editText38"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText39"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText40"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText41"
+                style="@style/EditText70" />
+
+            <EditText
+                android:id="@+id/editText42"
+                style="@style/EditText70" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText58" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText59" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText60" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText61" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText62" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText63" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText64" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText65" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText66" />
+
+            <EditText
+                style="@style/EditText70"
+                android:id="@+id/editText67" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editText43"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText44"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText45"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText46"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText47"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText48"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText49"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText50"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText51"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/editText52"
+                style="@style/EditText"
+                android:text="1" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText68"
+                android:text="1" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText69"
+                android:text="1" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText70"
+                android:text="1" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText71"
+                android:text="1" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/editText72"
+                android:text="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
